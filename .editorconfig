@@ -1,0 +1,17 @@
+root = true
+
+# TODO: マークダウンファイルのルールが下記で上書きされているので、下部に移動した上でチェックに引っかかっている箇所は直す
+[*.md]
+indent_size = 4
+trim_trailing_whitespace = false
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[{Makefile,**.mk}]
+indent_style = tab
