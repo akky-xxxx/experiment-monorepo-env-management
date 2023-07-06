@@ -3,5 +3,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "nodemon",
+    "start": "NODE_ENV=production node ./dist/index.js"
+  },
+  "dependencies": {
+    "common": "1.0.0",
+    "common-env": "1.0.0",
+    "fastify": "4.19.2",
+    "fastify-plugin": "4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22",
+    "regenerator-runtime": "0.13.11",
+    "ts-loader": "9.4.4",
+    "ts-node": "10.9.1",
+    "webpack": "5.88.1",
+    "webpack-cli": "5.1.4"
+  }
 }

@@ -10,10 +10,13 @@ Thumbs.db
 # develop 関連
 node_modules/
 yarn-error.log*
-.env
 *.tsbuildinfo
 .eslintcache
 .stylelintcache
+
+# build 関連
+**/.next/
+**/dist/
 
 # testing 関連
 **/coverage/**

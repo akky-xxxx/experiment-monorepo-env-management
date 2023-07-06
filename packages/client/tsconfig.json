@@ -1,0 +1,10 @@
+{
+  "extends": "../../config/tsconfig/tsconfig.client.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "preserve",
+    "baseUrl": "."
+  }
+}
